@@ -5,7 +5,7 @@
 This repository demonstrates a complete CI/CD pipeline using GitHub Actions, Azure Cloud Shell, SSH authentication, and a Makefile to automate build, test, and deploy steps
 
 ## Prerequisites
-* Github account with a Personaç Access Token
+* Github account with a Personal Access Token
 * Azure subscription to launch Cloud Shell
 
 ## Setup
