@@ -15,3 +15,9 @@ lint:
 	pylint --disable=R,C,W1203 app.py
 
 all: install lint test
+
+run:
+	@echo "Starting Flask in background..."
+	@nohup python app.py > flask.log 2>&1 &
+	@sleep 2
+	@echo "Running on http://localhost:5000/"
